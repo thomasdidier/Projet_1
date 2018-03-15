@@ -6,13 +6,28 @@
 		background-color: #fff !important;
 		background-color: #e6e6e6;
 	}
+
+	.about-iphone img{
+		width: 100%
+	}
+	.purchase-now .col-md-3{
+		text-align: center;
+		padding-top: 50px;
+	}
 }
 
 /* small devices and tablets */
 
 @media only screen and (max-width: 768px) {
 
-	
+	.header-iphone{
+		display: none;
+}
+
+	.header-text, .header-btns{
+		text-align: center;
+	}
+
 }
 
 /* Medium devices , desktop */
